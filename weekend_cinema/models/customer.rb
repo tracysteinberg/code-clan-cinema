@@ -36,7 +36,7 @@ class Customer
   end
 
   def self.delete_all() 
-    sql = "DELETE FROM users"
+    sql = "DELETE FROM customers"
     SqlRunner.run(sql)
   end
   
@@ -47,6 +47,6 @@ class Customer
     return result
   end
 
-binding pry
-nil
+# binding pry
+# nil
 end
